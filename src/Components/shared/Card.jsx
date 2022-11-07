@@ -13,9 +13,6 @@ function Card({ children, reverse }) {
       {children}
     </div>
   );
-
-  //   Conditional class
-  // return <div className={`card ${reverse && 'reverse'}`}>{children}</div>;
 }
 
 Card.defaultProps = {
